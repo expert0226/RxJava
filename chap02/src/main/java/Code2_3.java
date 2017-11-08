@@ -1,7 +1,7 @@
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 
-public class code2_3 {
+public class Code2_3 {
     public static void main(String[] args) {
         Observable<Integer> source = Observable.create(
                 (ObservableEmitter<Integer> emitter) -> {
